@@ -1,0 +1,141 @@
+* {
+            box-sizing: border-box;
+        }
+
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0b2341;
+            color: white;
+        }
+
+
+        header {
+            padding: 30px;
+            text-align: center;
+            background-color: #081b33;
+        }
+
+
+        nav {
+            padding: 15px;
+            text-align: center;
+            background-color: #102f55;
+        }
+
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+
+        main {
+            padding: 40px;
+        }
+
+
+        .cartoes {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+
+        .cartao {
+            background-color: white;
+            color: black;
+            padding: 20px;
+            border-radius: 8px;
+            min-height: 160px;
+        }
+
+
+        #cartao1{
+            background-color: #0D0097;
+            color: #00FFC3;
+            padding: 20px;
+            border-radius: 8px;
+            min-height: 160px;
+        }
+
+
+          #cartao2{
+            background-color: #00013F;
+            color: #FF077F;
+            padding: 20px;
+            border-radius: 8px;
+            min-height: 160px;
+        }
+
+
+                #cartao3{
+            background-color: #002807;
+            color: #9C9110;
+            padding: 20px;
+            border-radius: 8px;
+            min-height: 160px;
+        }
+
+
+                #cartao4{
+            background-color: #FF9090;
+            color: #B40909;
+            padding: 20px;
+            border-radius: 8px;
+            min-height: 160px;
+        }
+
+
+                #cartao5{
+            background-color: #FFB300;
+            color: #240091;
+            padding: 20px;
+            border-radius: 8px;
+            min-height: 160px;
+        }
+
+
+                #cartao6{
+            background-color: #8C00FF;
+            color: #B2FFB8;
+            padding: 20px;
+            border-radius: 8px;
+            min-height: 160px;
+        }
+                #cartao7{
+            background-color: #7006AA;
+            color: #FE5900;
+            padding: 20px;
+            border-radius: 8px;
+            min-height: 160px;
+        }
+
+
+                #cartao8{
+            background-color: #1F140E;
+            color: #D4AF37;
+            padding: 20px;
+            border-radius: 8px;
+            min-height: 160px;
+        }
+
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            text-align: center;
+            background-color: #081b33;
+        }
+
+
+        /* Quando a tela ficar menor, organiza em 2 colunas */
+        @media (max-width: 850px) {
+            .cartoes {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
